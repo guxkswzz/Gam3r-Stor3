@@ -20,6 +20,9 @@
 - Gustavo Rubert
 - Mateus Evandro
 
+## Professor:
+- Mateus Maidel
+
 ## Prints:
 ![](/assets/screenshot-1.png)
 ![](/assets/screenshot-2.png)
