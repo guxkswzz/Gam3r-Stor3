@@ -3,7 +3,7 @@ import Github from './Github';
 function Footer() {
   return (
     <footer>
-      <Github username="nekusu" />
+      <Github username="guxkswzz" />
       <a
         href="https://rawg.io/apidocs"
         target="_blank"
