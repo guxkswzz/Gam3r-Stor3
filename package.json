@@ -1,7 +1,7 @@
 {
   "name": "gam3r-store",
   "version": "0.1.0",
-  "homepage": "https://guxkswzz.github.io/Gam3r-Stor3/",
+  "homepage": "https://github.com/guxkswzz/Gam3r-Stor3/",
   "private": true,
   "dependencies": {
     "@react-hook/window-size": "^3.0.7",
