@@ -31,7 +31,7 @@ function Cart(props: Props) {
   } else if (cartItems.length === 1) {
     gamesCount = '1 game';
   } else {
-    gamesCount = 'No games added';
+    gamesCount = 'Sem jogos adicionados';
   }
   const totalPrice = cartItems
     .reduce((acc, item) => acc + item.price, 0)
