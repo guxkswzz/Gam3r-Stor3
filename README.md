@@ -4,6 +4,8 @@
 
 🌑 [Demonstração do site](link do site)
 
+![](/assets/presentation.png)
+
 ## Desenvolvido com:
 
 - React
