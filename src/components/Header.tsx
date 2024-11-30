@@ -40,7 +40,7 @@ function Header(props: Props) {
           className="Logo"
           handleClick={navigateToHome}
         >
-          <RiReactjsLine /> GameStore
+          <RiReactjsLine /> Gam3r Store
         </Button>
         <SearchBar />
         <Button
