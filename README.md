@@ -1,8 +1,5 @@
 <h1 align="center">Gam3r Store</h1>
 
-![](/assets/presentation.png)
-
-
 ## Demonstração
 
 🌑 [Demonstração do site](link do site)
@@ -30,12 +27,6 @@
 - Desingn responsivo.
 - Carregamento lento de imagens.
 - Animações _Lentas_.
-
-## Prints do site:
-
-![](/assets/screenshot-0.png)
-![](/assets/screenshot-1.png)
-![](/assets/screenshot-2.png)
 
 ## Desenvolvimento:
 
