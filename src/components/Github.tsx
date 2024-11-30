@@ -10,7 +10,7 @@ function Github({ username }: { username: string }) {
       title="Check out my GitHub!"
     >
       <RiGithubLine />
-      {guxkswzz}
+      {username}
     </a>
   );
 }
