@@ -18,6 +18,10 @@
 - Gustavo Rubert
 - Mateus Evandro
 
+## Prints:
+![](/assets/screenshot-1.png)
+![](/assets/screenshot-2.png)
+
   
 ## Features
 
