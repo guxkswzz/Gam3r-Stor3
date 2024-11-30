@@ -39,7 +39,7 @@
 
 ## Desenvolvimento:
 
-Aqui está os passos para rodar o projeto localmente.
+Aqui estão os passos para rodar o projeto localmente.
 
 1. Clone o repositório.
 
