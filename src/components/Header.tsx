@@ -37,7 +37,7 @@ function Header(props: Props) {
         distance={20}
       >
         <Button
-          className="Logo"
+           <link rel="icon" href="%PUBLIC_URL%/logo.png" />
           handleClick={navigateToHome}
         >
           <RiReactjsLine /> Gam3r Store
