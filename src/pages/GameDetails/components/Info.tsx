@@ -22,7 +22,7 @@ function Info({ game }: { game: Game }) {
   return (
     <Transition className="Info">
       <div className="About">
-        <h4>About</h4>
+        <h4>Sobre</h4>
         {description_raw.split('###').map((p, index) => (
           <p key={index}>{p}</p>
         ))}
@@ -51,7 +51,7 @@ function Info({ game }: { game: Game }) {
             </Transition>
             <motion.div className="Expand" layoutId="expand-button">
               <Button handleClick={() => setIsExpanded(false)}>
-                Hide <RiArrowUpSLine />
+                Esconder <RiArrowUpSLine />
               </Button>
             </motion.div>
           </>
@@ -60,7 +60,7 @@ function Info({ game }: { game: Game }) {
               setIsExpanded(true);
               scrollTo(10000);
             }}>
-              More <RiArrowDownSLine />
+              Mais <RiArrowDownSLine />
             </Button>
           </motion.div>
         }

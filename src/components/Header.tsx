@@ -6,7 +6,6 @@ import {
   disablePageScroll,
 } from 'scroll-lock';
 import {
-  RiReactjsLine,
   RiShoppingBag2Line,
 } from 'react-icons/ri';
 import SearchBar from './SearchBar';
@@ -37,10 +36,11 @@ function Header(props: Props) {
         distance={20}
       >
         <Button
-           <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+          className="Logo"
           handleClick={navigateToHome}
         >
-          <RiReactjsLine /> Gam3r Store
+          <img src={`${process.env.PUBLIC_URL}/gamerlogo.png`} className="logo-img" />
+          Gam3r Store
         </Button>
         <SearchBar />
         <Button
@@ -48,7 +48,7 @@ function Header(props: Props) {
           handleClick={openCart}
         >
           <RiShoppingBag2Line />
-          Cart
+          Carrinho
           <div>{cartItems.length}</div>
         </Button>
       </Transition>

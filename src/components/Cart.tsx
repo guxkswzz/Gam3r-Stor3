@@ -58,7 +58,7 @@ function Cart(props: Props) {
         <div className="CartHeader">
           <h3>{gamesCount}</h3>
           {cartItems.length > 0 && (
-            <Button handleClick={clearCart}>Clear</Button>
+            <Button handleClick={clearCart}>Limpar</Button>
           )}
         </div>
         <div className="Items">
@@ -74,7 +74,7 @@ function Cart(props: Props) {
         </div>
         <div className="Checkout">
           <div>Total: ${+totalPrice}</div>
-          <Button>Checkout <RiArrowRightLine /></Button>
+          <Button>Comprar <RiArrowRightLine /></Button>
         </div>
       </motion.div>
     </>

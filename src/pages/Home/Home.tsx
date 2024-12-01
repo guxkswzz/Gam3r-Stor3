@@ -68,7 +68,7 @@ function Home({ loadGames }: Props) {
             className="Store"
             handleClick={navigateToStore}
           >
-            Go to the store <RiArrowRightLine />
+            Vá para a loja <RiArrowRightLine />
           </Button>
         </Transition>
         : <Loading />

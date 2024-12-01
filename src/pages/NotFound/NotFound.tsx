@@ -18,9 +18,9 @@ function NotFound() {
   return (
     <Transition className="NotFound" direction="up" distance={100}>
       <h1>404</h1>
-      <p>Page not found.</p>
+      <p>Página não encontrada.</p>
       <div className="Redirect">
-        Redirecting to homepage...
+        Redirecionando para a página inicial...
         <motion.div
           className="ProgressBar"
           initial={{ width: 0 }}

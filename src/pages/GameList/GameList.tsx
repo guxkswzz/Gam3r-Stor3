@@ -50,7 +50,7 @@ function GameList({ loadGames, cartItems, addToCart }: Props) {
     <Transition className="GameList" direction="right">
       <NavBar
         showStoreButton={!!location.search}
-        title={searchParams.get('search') || 'Best of All Time'}
+        title={searchParams.get('search') || 'Melhores de todos os tempos'}
       />
       {games
         ? games.length
@@ -60,7 +60,7 @@ function GameList({ loadGames, cartItems, addToCart }: Props) {
             addToCart={addToCart}
             columnsCount={columnsCount}
           />
-          : <Transition className="NoGames">No games found.</Transition>
+          : <Transition className="NoGames">Nenhum Jogo Encontrado.</Transition>
         : <Loading />
       }
     </Transition>

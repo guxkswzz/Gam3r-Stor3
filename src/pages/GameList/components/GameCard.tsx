@@ -83,9 +83,9 @@ function GameCard(props: Props) {
       >
         <div className="Price">
           {cartItems.find((item) => item.id === id)
-            ? <Transition className="Added">Added <RiCheckLine /></Transition>
+            ? <Transition className="Added">Adicionados <RiCheckLine /></Transition>
             : <Button handleClick={() => addToCart(game)}>
-              Add to cart <RiAddLine />
+              Adicionar ao carrinho <RiAddLine />
             </Button>
           }
           ${price}
@@ -103,8 +103,8 @@ function GameCard(props: Props) {
                   </div>
                 ))}
               </div>}
-              <div className="Released">Released: {releasedDate}</div>
-              <div className="Genres">Genres: {genreList}</div>
+              <div className="Released">Lançamento: {releasedDate}</div>
+              <div className="Genres">Generos: {genreList}</div>
             </Transition>
           )}
         </AnimatePresence>

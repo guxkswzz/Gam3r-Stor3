@@ -62,10 +62,10 @@ function GameDetails({ cartItems, addToCart }: Props) {
             ${game.price}
             {cartItems.find((item) => item.id === id)
               ? <Transition className="Added">
-                Added <RiCheckLine />
+                Adicionado <RiCheckLine />
               </Transition>
               : <Button handleClick={() => addToCart(game)}>
-                Add to cart <RiAddLine />
+                Adicionar ao carrinho <RiAddLine />
               </Button>
             }
           </div>
