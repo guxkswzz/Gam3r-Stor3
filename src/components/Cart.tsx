@@ -27,9 +27,9 @@ function Cart(props: Props) {
   };
   let gamesCount;
   if (cartItems.length > 1) {
-    gamesCount = `${cartItems.length} games`;
+    gamesCount = `${cartItems.length} Jogos`;
   } else if (cartItems.length === 1) {
-    gamesCount = '1 game';
+    gamesCount = '1 Jogo';
   } else {
     gamesCount = 'Sem jogos adicionados';
   }
