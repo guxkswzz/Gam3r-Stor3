@@ -40,7 +40,7 @@ function Header(props: Props) {
           handleClick={navigateToHome}
         >
           <img src={`${process.env.PUBLIC_URL}/gamerlogo.png`} className="logo-img" />
-          <img src={`${process.env.PUBLIC_URL}/logo-texto.png`} className="logo-img" />
+          <img src={`${process.env.PUBLIC_URL}/logo-texto.png`} className="logo-txt" />
         </Button>
         <SearchBar />
         <Button
