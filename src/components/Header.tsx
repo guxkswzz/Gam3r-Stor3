@@ -40,7 +40,7 @@ function Header(props: Props) {
           handleClick={navigateToHome}
         >
           <img src={`${process.env.PUBLIC_URL}/gamerlogo.png`} className="logo-img" />
-          Gam3r Store
+          <img src={`${process.env.PUBLIC_URL}/logo-texto.png`} className="logo-img" />
         </Button>
         <SearchBar />
         <Button
