@@ -34,7 +34,7 @@
 - Procure o jogo que você deseja.
 - Informações e prints dos jogos.
 - Desingn responsivo.
-- Carregamento lento de imagens.
+- Carregamento rápido de imagens.
 - Animações _Lentas_.
 
 ## Desenvolvimento:
