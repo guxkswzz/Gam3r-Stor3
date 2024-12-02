@@ -4,7 +4,7 @@
 
 🌑 [Demonstração do site](link do site)
 
-![](/assets/presentation.png)
+![](/assets/presentation0.png)
 
 ## Desenvolvido com:
 
